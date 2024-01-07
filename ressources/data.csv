@@ -1,107 +1,106 @@
 1.sexe,2.wilaya,2.Quel âge avez-vous ?                ,3.Quel est votre niveau d'étude 				,4.Quelles est votre activité  professionnelle                                 ,"5.Fumez-vous actuellement des produits à base de tabac tels que cigarettes, cigares ?",6.si oui Fumez-vous quotidiennement ?,7.A quel âge avez-vous commencé à fumer?,8. Pourquoi avez-vous débuté à fumer?                                        ,9. souhaitez-vous arrêter de fumer?,9.avez-vous consommé une boisson alcoolisée?                                                                ,"10.à quelle fréquence avez-vous bu au moins une boisson alcoolisée ?""                                                                ","14.Habituellement, combien de jours par semaine consommez-vous des fruits ?","15.Habituellement, combien de jours par semaine consommez-vous des légumes ?"," 16.Quelle sorte de matière grasse (huile, beurre…)utilisez-vous le plus souvent pour la préparation des repas à la maison ?","17.Habituellement, combien de jours par semaine effectuez-vous des activités physiques?",18.vous inscrivez dans une salle de sport?,"19.Est-ce que votre travail implique des activités physiques d'intensité modérée, comme une marche rapide ?",20.Est-ce que vous effectuez des trajets d’au moins 10 minutes à pied ou à vélo ?,"21.Habituellement, combien de jours par semaine effectuez-vous des trajets d’au moins 30 minutes à pied ou à vélo ?","22.Est-ce que vous pratiquez des sports, du fitness ou des activités de loisirs pendant au moins dix minutes d'affilée ?",23.Combien de temps avez-vous passé en position assise ou couchée lors d'une journée habituelle ?,"24.avez vous d'autres maladies chroniques dans la famille? diabète, la tension, ",25.si oui c'est quoi la maladies?
-homme,,37,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,0,3,Huile végétale,5,Non,oui,oui,5,Non,8h,Assma tique ,Asm
-homme,,37,universitaire,Employé(e) de l’Etat,oui,oui,20,curiosité,oui,Non,,3,5,Huile végétale,3,oui,oui,oui,3,oui,9h,Non,
-femme,,64,école secondaire,chomeur(se),Non,Non,,autre,oui,Non,,5,5,Huile végétale,5,Non,oui,oui,4,Non,9,oui,Diabète
-homme,,44,école secondaire,Employé(e) dans le privé,oui,oui,25,curiosité,oui,Non,,3,5,Huile végétale,1,Non,Non,oui,3,Non,8h,Non,
+homme,,37,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,0,3,Huile végétale,5,Non,oui,oui,5,Non,8h,Assma tique ,Asthme
+homme,,37,universitaire,Employé(e) de l’Etat,oui,oui,20.0,curiosité,oui,Non,,3,5,Huile végétale,3,oui,oui,oui,3,oui,9h,Non,
+femme,,64,école secondaire,chomeur(se),Non,Non,,autre,oui,Non,,5,5,Huile végétale,5,Non,oui,oui,4,Non,9,oui,
+homme,,44,école secondaire,Employé(e) dans le privé,oui,oui,25.0,curiosité,oui,Non,,3,5,Huile végétale,1,Non,Non,oui,3,Non,8h,Non,
 homme,,25,universitaire,étudiant,Non,Non,,,,Non,,2,4,Zit ziton,2,Non,Non,Non,3,oui,2h,Non,
-femme,,30,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,Non,2,Non,6ساعات,oui,القلب
+femme,,30,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,Non,2,Non,6ساعات,oui,Maladie caridiaque
 homme,,38,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,2,3,Beurre ou beurre allégé,2,Non,oui,oui,2,oui,15min,Non,
-homme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,5,Huile végétale,2,oui,Non,oui,5,Non,2 heures ,oui,La tension 
-homme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,5,Huile végétale,2,oui,Non,oui,5,Non,2 heures ,oui,La tension 
-homme,,30,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Margarine,2,Non,oui,Non,1,oui,30 minutes ,oui,Diabète 
-homme,,34,lycée,Employé(e) de l’Etat,Non,Non,,,,Non,,1,2,Huile végétale,1,jaingel,Non,oui,5,Non,,Non,
+homme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,5,Huile végétale,2,oui,Non,oui,5,Non,2 heures ,oui,
+homme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,5,Huile végétale,2,oui,Non,oui,5,Non,2 heures ,oui,
+homme,,30,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Margarine,2,Non,oui,Non,1,oui,30 minutes ,oui,
+homme,,34,lycée,Employé(e) de l’Etat,Non,Non,,,,Non,,1,2,Huile végétale,1,Non,Non,oui,5,Non,,Non,
 homme,,33,universitaire,Employé(e) dans le privé,Non,Non,,,,Non,,3,3,Huile végétale,0,Non,oui,oui,0,oui,,Non,
 homme,,33,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,5,5,Huile végétale,1,Non,oui,oui,5,oui,16,Non,
-homme,,38 ans,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,2,3,Margarine,2,Non,oui,oui,5,Non,6h,oui,
-homme,,35,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,3,Huile végétale,2,Non,oui,oui,3,Non,2 heures,oui,HTA
-homme,,35,universitaire,Employé(e) dans le privé,Non,,,,,Non,,1,5,Huile végétale,5,La marche 20min/jrs,Non,Non,5,Non,5 _ 6 h,oui,Diabète.. la tention
-homme,,45,universitaire,Employé(e) de l’Etat,Non,Non,23,entourage,oui,Non,,5,5,Huile végétale,2,Association sportif ,Non,oui,1,oui,8 heures ,oui,
-femme,,25,universitaire,étudiant,Non,Non,/,,,Non,,4,5,Huile végétale,0,Non,oui,oui,2,oui,4h,oui,"la tension,Insuffisance rénale"
-femme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Huile végétale,1,Non,Non,oui,2,Non,,oui,Diabète
+homme,,38,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,2,3,Margarine,2,Non,oui,oui,5,Non,6h,oui,
+homme,,35,universitaire,Employé(e) de l’Etat,Non,Non,,,,oui,1-4 jours par semaine,3,3,Huile végétale,2,Non,oui,oui,3,Non,2 heures,oui,hypertension artérielle
+homme,,35,universitaire,Employé(e) dans le privé,Non,,,,,Non,,1,5,Huile végétale,5,Non,Non,Non,5,Non,5 _ 6 h,oui,
+homme,,45,universitaire,Employé(e) de l’Etat,Non,Non,23.0,entourage,oui,Non,,5,5,Huile végétale,2,Association sportif ,Non,oui,1,oui,8 heures ,oui,
+femme,,25,universitaire,étudiant,Non,Non,,,,Non,,4,5,Huile végétale,0,Non,oui,oui,2,oui,4h,oui,hypertension artérielle
+femme,,32,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Huile végétale,1,Non,Non,oui,2,Non,,oui,
 femme,,56,école secondaire,chomeur(se),Non,Non,,,,Non,,5,3,Huile végétale,3,Non,Non,oui,4,Non,,oui,
-femme,,27,universitaire,étudiant,Non,Non,non,autre,,Non,1 fois par mois,3,4,Huile végétale,4,oui,oui,oui,2,oui,20 min,oui,diabétique et asmatique 
+femme,,27,universitaire,étudiant,Non,Non,,autre,,Non,1 fois par mois,3,4,Huile végétale,4,oui,oui,oui,2,oui,20 min,oui,
 homme,,37,universitaire,Employé(e) dans le privé,Non,Non,,,,Non,,5,3,Huile végétale,0,Non,Non,Non,0,Non,,Non,
-homme,,25,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,3,Non,oui,Non,0,oui,2heures,oui,mon père
 homme,,26,universitaire,Employé(e) de l’Etat,Non,Non,,autre,,Non,,5,3,Huile végétale,5,oui,oui,oui,5,oui,,Non,
 femme,,48,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Huile végétale,0,Non,Non,Non,1,Non,8h,Non,
-femme,,23ans,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,2,oui,8h,Non,
-femme,,26,universitaire,étudiant,Non,Non,لاادخن ,,Non,Non,1 fois par mois,4,3,Beurre ou beurre allégé,2,oui,oui,Non,3,oui,,oui,la tension(HTA)
-femme,ولاية قسنطينة,29,universitaire,Employé(e) dans le privé,Non,Non,,autre,,Non,,3,1,Huile végétale,1,Non,Non,Non,0,Non,6heures,oui,Hta
-homme,ولاية ورقلة,37,universitaire,Employé(e) dans le privé,Non,,,,,Non,,3,5,Huile végétale,5,Non,Non,Non,0,Non,20,oui,Diabete rension... 
-homme,ولاية قسنطينة,49 سنة,lycée,Employé(e) de l’Etat,Non,Non,,,,Non,,3,2,Huile végétale,4,Non,Non,oui,5,oui,6 ساعات,oui,diabete
-homme,ولاية قسنطينة,33,universitaire,Employé(e) dans le privé,oui,oui,15,entourage,oui,Non,,5,5,Huile végétale,0,Non,Non,oui,1,Non,8 heures ,oui,diabete
-homme,ولاية قسنطينة,31,universitaire,Employé(e) dans le privé,oui,oui,24,curiosité,oui,oui,,2,2,Huile végétale,3,Non,oui,oui,5,Non,4 h,oui,Diabete et hta
-femme,ولاية الجزائر,27ans,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,3,2,Huile végétale,0,Non,oui,oui,4,Non,,Non,
-femme,ولاية الجزائر,26,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Beurre ou beurre allégé,2,Non,Non,oui,5,Non,,oui,diabete
-homme,ولاية الجزائر,28,universitaire,chomeur(se),Non,,,,,Non,,5,2,Huile végétale,2,Non,oui,oui,5,oui,8h ,oui,diabete
-femme,ولاية البليدة,26,universitaire,chomeur(se),Non,,,,,Non,,3,5,Huile végétale,3,Non,Non,oui,1,Non,5 heures par jour,oui,diabete
-femme,ولاية الجزائر,26,universitaire,chomeur(se),Non,Non,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,3,Non,2 heures ,oui,diabete
-femme,ولاية الجزائر,28,universitaire,Employé(e) de l’Etat,Non,Non,Jamais,,,Non,,3,4,Beurre ou beurre allégé,1,Non,Non,oui,3,Non,3heures,Non,
-femme,ولاية الجزائر,19,universitaire,étudiant,Non,Non,,,,Non,,5,5,autre,4,oui,oui,oui,3,oui,10 min,oui,diabete
-homme,ولاية الجزائر,27,universitaire,Employé(e) dans le privé,Non,Non,12 ans,entourage,J'ai arrêté de fumer,Non,,4,5,autre,5,Non,oui,oui,5,Non,,oui,diabete
-femme,ولاية البليدة,30,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,2,5,Huile végétale,0,Non,Non,oui,5,Non,Assise  2h ,oui,la tension(HTA)
-femme,ولاية الجزائر,27,universitaire,Employé(e) dans le privé,Non,,,,,Non,,4,5,Huile végétale,2,a la maison chaque week-end ,oui,oui,1,oui,6 ou 7 heures ,oui,les 3 
-femme,ولاية قسنطينة,29,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,4,3,Huile végétale,1,Non,oui,oui,2,Non,12,oui,diabete
-femme,ولاية الجزائر,20,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,0,Non,oui,oui,5,oui,Presque toute la journée,oui,"Diabète, tension, ..."
-homme,ولاية جيجل,18,universitaire,étudiant,Non,Non,,autre,oui,Non,1 fois par mois,1,4,Beurre ou beurre allégé,3,Non,oui,oui,3,Non,,Non,diabete
-femme,ولاية أم البواقي,21,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,1,Non,Non,Non,1,Non,,oui,diabete
-femme,ولاية جيجل,18 ans,universitaire,étudiant,Non,,,,,Non,,4,2,Huile végétale,0,"D’habitude je fais un abonnement à la salle de sport chaque été Mais vu led circonstances sanitaires, j’ai arrêté ",Non,Non,2,oui,2h,Non,
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,Non,,curiosité,Non,Non,1 fois par mois,4,5,autre,0,Non,Non,oui,1,Non,22 heures,oui,la tension(HTA)
-femme,ولاية الجزائر,22,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,3,oui,8-10 h,Non,
-homme,ولاية الجزائر,19 ans,universitaire,étudiant,Non,Non,,curiosité,oui,Non,1 fois par mois,4,5,autre,1,Non,Non,oui,2,Non,24 h,oui,diabete
-homme,ولاية الجزائر,18,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,0,Non,20h,oui,la tension(HTA)
-homme,ولاية البويرة,21,universitaire,étudiant,Non,,,,,Non,,3,4,Huile végétale,2,Non,Non,oui,2,oui,15 à 18h ,Non,
-femme,ولاية تيزي وزو,24,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,3,Non,7 h,oui,la tension(HTA)
-femme,ولاية الجزائر,20,universitaire,étudiant,Non,Non,,,,Non,,2,3,Huile végétale,0,Non,Non,Non,5,Non,toute la journée presque ,oui,la tension(HTA)
-homme,ولاية الجزائر,23,universitaire,étudiant,Non,,,,,Non,,3,4,Huile végétale,0,Non,Non,oui,0,Non,7h,oui,diabete
-femme,ولاية جيجل,19,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,Non,1,Non,10h,oui,diabete
-homme,ولاية البليدة,21 ans,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,0,Non,oui,oui,1,oui,15h,oui,asthmatique
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,2,Non,Non,oui,5,Non,plus de 2 heures,Non,
-femme,ولاية البليدة,19,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,oui,1,Non,8h,oui,les trois
-femme,ولاية سكيكدة,22,universitaire,étudiant,Non,Non,,,,Non,,4,4,Huile végétale,3,Non,oui,Non,5,oui,,Non,
-homme,ولاية بجاية,19,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,1,Non,oui,oui,2,Non,,oui,la tension(HTA)
-homme,ولاية قسنطينة,21,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,3,Non,Non,oui,3,Non,8h,oui,diabete
-homme,ولاية باتنة,21,universitaire,étudiant,Non,,,,,Non,,5,2,Huile végétale,5,Non,Non,oui,5,oui,8h,oui,diabete
-homme,ولاية جيجل,20 ans,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,2,Non,oui,oui,4,oui,4 heures min 6 heures max,oui,la tension(HTA)
-homme,ولاية تلمسان,21,universitaire,étudiant,Non,,,,,Non,,2,4,autre,2,Non,oui,oui,5,oui,70% du temps,oui,diabete
-femme,ولاية الشلف,20,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,3,Non,Non,oui,2,oui,,oui,diabete
-femme,ولاية الجزائر,18,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,1,Non,Non,oui,1,oui,,oui,diabete
-femme,ولاية الجزائر,19ans,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,oui,0,Non,10,oui,diabete
-homme,ولاية تيزي وزو,23,universitaire,Employé(e) dans le privé,Non,Non,,,,oui,1 fois par mois,3,5,Huile végétale,2,Non,Non,oui,5,oui,15 h,Non,
-homme,ولاية الجزائر,22,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,1,Non,Non,oui,5,Non,8h,oui,la tension(HTA)
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,4,Non,oui,oui,4,oui,13 heures + 8h de sommeil,Non,
-femme,ولاية الجزائر,23,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,0,Non,Non,oui,0,Non,9h+ assise,oui,la tension(HTA)
-femme,ولاية تيزي وزو,21,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,1,Non,Non,oui,5,oui,8h,oui,la tension(HTA)
-femme,ولاية تيارت,19,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,1,Non,oui,oui,2,Non,,Non,
-homme,ولاية تيزي وزو,19,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,1,Non,Non,oui,2,Non,,oui,
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,Non,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,0,Non,10 heures,Non,
-femme,ولاية الجزائر,21,universitaire,étudiant,Non,,,,,Non,,3,5,Margarine et huile végétale,0,Non,Non,oui,5,Non,Toute la journée. ,oui,la tension(HTA)
+femme,,23,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,2,oui,8h,Non,
+femme,,26,universitaire,étudiant,Non,Non,,,Non,Non,1 fois par mois,4,3,Beurre ou beurre allégé,2,oui,oui,Non,3,oui,,oui,
+femme,Constantine,29,universitaire,Employé(e) dans le privé,Non,Non,,autre,,Non,,3,1,Huile végétale,1,Non,Non,Non,0,Non,6heures,oui,hypertension artérielle
+homme,Ouargla,37,universitaire,Employé(e) dans le privé,Non,,,,,Non,,3,5,Huile végétale,5,Non,Non,Non,0,Non,20,oui,
+homme,Constantine,49,lycée,Employé(e) de l’Etat,Non,Non,,,,Non,,3,2,Huile végétale,4,Non,Non,oui,5,oui,6 ساعات,oui,Diabète
+homme,Constantine,33,universitaire,Employé(e) dans le privé,oui,oui,15.0,entourage,oui,Non,,5,5,Huile végétale,0,Non,Non,oui,1,Non,8 heures ,oui,Diabète
+homme,Constantine,31,universitaire,Employé(e) dans le privé,oui,oui,24.0,curiosité,oui,oui,,2,2,Huile végétale,3,Non,oui,oui,5,Non,4 h,oui,Diabète
+femme,Alger,27,universitaire,Employé(e) de l’Etat,Non,,,,,Non,,3,2,Huile végétale,0,Non,oui,oui,4,Non,,Non,
+femme,Alger,26,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,5,5,Beurre ou beurre allégé,2,Non,Non,oui,5,Non,,oui,Diabète
+homme,Alger,28,universitaire,chomeur(se),Non,,,,,Non,,5,2,Huile végétale,2,Non,oui,oui,5,oui,8h ,oui,Diabète
+femme,Blida,26,universitaire,chomeur(se),Non,,,,,Non,,3,5,Huile végétale,3,Non,Non,oui,1,Non,5 heures par jour,oui,Diabète
+femme,Alger,26,universitaire,chomeur(se),Non,Non,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,3,Non,2 heures ,oui,Diabète
+femme,Alger,28,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,3,4,Beurre ou beurre allégé,1,Non,Non,oui,3,Non,3heures,Non,
+femme,Alger,19,universitaire,étudiant,Non,Non,,,,Non,,5,5,autre,4,oui,oui,oui,3,oui,10 min,oui,Diabète
+homme,Alger,27,universitaire,Employé(e) dans le privé,Non,Non,12.0,entourage,J'ai arrêté de fumer,Non,,4,5,autre,5,Non,oui,oui,5,Non,,oui,Diabète
+femme,Blida,30,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,2,5,Huile végétale,0,Non,Non,oui,5,Non,Assise  2h ,oui,
+femme,Alger,27,universitaire,Employé(e) dans le privé,Non,,,,,Non,,4,5,Huile végétale,2,a la maison chaque week-end ,oui,oui,1,oui,6 ou 7 heures ,oui,
+femme,Constantine,29,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,4,3,Huile végétale,1,Non,oui,oui,2,Non,12,oui,Diabète
+femme,Alger,20,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,0,Non,oui,oui,5,oui,Presque toute la journée,oui,
+homme,Jijel,18,universitaire,étudiant,Non,Non,,autre,oui,Non,1 fois par mois,1,4,Beurre ou beurre allégé,3,Non,oui,oui,3,Non,,Non,Diabète
+femme,Oum El Bouaghi,21,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,1,Non,Non,Non,1,Non,,oui,Diabète
+femme,Jijel,18,universitaire,étudiant,Non,,,,,Non,,4,2,Huile végétale,0,"D’habitude je fais un abonnement à la salle de sport chaque été Mais vu led circonstances sanitaires, j’ai arrêté ",Non,Non,2,oui,2h,Non,
+homme,Alger,19,universitaire,étudiant,Non,Non,,curiosité,Non,Non,1 fois par mois,4,5,autre,0,Non,Non,oui,1,Non,22 heures,oui,
+femme,Alger,22,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,3,oui,8-10 h,Non,
+homme,Alger,19,universitaire,étudiant,Non,Non,,curiosité,oui,Non,1 fois par mois,4,5,autre,1,Non,Non,oui,2,Non,24 h,oui,Diabète
+homme,Alger,18,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,0,Non,20h,oui,
+homme,Bouira,21,universitaire,étudiant,Non,,,,,Non,,3,4,Huile végétale,2,Non,Non,oui,2,oui,15 à 18h ,Non,
+femme,Tizi Ouzou,24,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,3,Non,7 h,oui,
+femme,Alger,20,universitaire,étudiant,Non,Non,,,,Non,,2,3,Huile végétale,0,Non,Non,Non,5,Non,toute la journée presque ,oui,
+homme,Alger,23,universitaire,étudiant,Non,,,,,Non,,3,4,Huile végétale,0,Non,Non,oui,0,Non,7h,oui,Diabète
+femme,Jijel,19,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,Non,1,Non,10h,oui,Diabète
+homme,Blida,21,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,0,Non,oui,oui,1,oui,15h,oui,Asthme
+homme,Alger,19,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,2,Non,Non,oui,5,Non,plus de 2 heures,Non,
+femme,Blida,19,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,oui,1,Non,8h,oui,Diabète
+femme,Skikda,22,universitaire,étudiant,Non,Non,,,,Non,,4,4,Huile végétale,3,Non,oui,Non,5,oui,,Non,
+homme,Béjaïa,19,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,1,Non,oui,oui,2,Non,,oui,
+homme,Constantine,21,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,3,Non,Non,oui,3,Non,8h,oui,Diabète
+homme,Batna,21,universitaire,étudiant,Non,,,,,Non,,5,2,Huile végétale,5,Non,Non,oui,5,oui,8h,oui,Diabète
+homme,Jijel,20,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,2,Non,oui,oui,4,oui,4 heures min 6 heures max,oui,
+homme,Tlemcen,21,universitaire,étudiant,Non,,,,,Non,,2,4,autre,2,Non,oui,oui,5,oui,70% du temps,oui,Diabète
+femme,Chlef,20,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,3,Non,Non,oui,2,oui,,oui,Diabète
+femme,Alger,18,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,1,Non,Non,oui,1,oui,,oui,Diabète
+femme,Alger,19,universitaire,étudiant,Non,,,,,Non,,2,3,Huile végétale,0,Non,Non,oui,0,Non,10,oui,Diabète
+homme,Tizi Ouzou,23,universitaire,Employé(e) dans le privé,Non,Non,,,,oui,1 fois par mois,3,5,Huile végétale,2,Non,Non,oui,5,oui,15 h,Non,
+homme,Alger,22,universitaire,étudiant,Non,Non,,,,Non,,3,4,Huile végétale,1,Non,Non,oui,5,Non,8h,oui,
+homme,Alger,19,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,4,Non,oui,oui,4,oui,13 heures + 8h de sommeil,Non,
+femme,Alger,23,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,0,Non,Non,oui,0,Non,9h+ assise,oui,
+femme,Tizi Ouzou,21,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,1,Non,Non,oui,5,oui,8h,oui,
+femme,Tiaret,19,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,1,Non,oui,oui,2,Non,,Non,
+homme,Tizi Ouzou,19,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,1,Non,Non,oui,2,Non,,oui,
+homme,Alger,19,universitaire,étudiant,Non,Non,,,,Non,,5,5,Huile végétale,0,Non,Non,oui,0,Non,10 heures,Non,
+femme,Alger,21,universitaire,étudiant,Non,,,,,Non,,3,5,Margarine et huile végétale,0,Non,Non,oui,5,Non,Toute la journée. ,oui,
 femme,,21,universitaire,étudiant,Non,Non,,,,Non,,4,5,Huile végétale,0,Non,Non,oui,3,oui,10h,Non,
-femme,ولاية الجزائر,21,universitaire,étudiant,Non,Non,,,,Non,,0,5,Huile végétale,1,Non,Non,Non,0,Non,"la plupart du temps ( studies, working on computer)",oui,asthmatique
-femme,ولاية الجزائر,18,universitaire,étudiant,Non,,,,,Non,,2,5,Margarine,1,Natation,oui,oui,5,Non,16h,oui,la tension(HTA)
-femme,ولاية وهران,18,universitaire,étudiant,Non,Non,,,,Non,,5,2,Huile végétale,5,Non,oui,oui,1,oui,14h,oui,diabete
-femme,ولاية الجزائر,20,universitaire,étudiant,Non,Non,,,,Non,,3,5,Huile végétale,0,Non,oui,oui,5,oui,6 h,oui,diabete
-femme,ولاية الجزائر,18,universitaire,étudiant,Non,,,,,Non,,4,2,Huile végétale,1,Non,oui,Non,2,oui,8h,oui,asthmatique
-femme,ولاية الجزائر,35,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,4,4,Huile végétale,0,Non,Non,Non,0,Non,8,oui,diabete
-homme,ولاية قسنطينة,19,universitaire,étudiant,Non,,,,,Non,,5,2,Margarine,0,Non,Non,oui,5,Non,10h,oui,diabete
-homme,ولاية تيزي وزو,20,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,5,oui,Non,oui,5,oui,5 ou 6 heures ou peut-être plus,oui,diabete
-femme,ولاية الجزائر,19,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,0,Non,Non,Non,0,oui,24h,Non,
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,3,oui,Non,oui,1,oui,8-12h,Non,
-homme,ولاية الجزائر,21,universitaire,étudiant,Non,Non,,,,Non,,2,5,Huile végétale,2,Non,Non,oui,4,oui,10 heures,Non,
-homme,ولاية البليدة,18,universitaire,étudiant,Non,Non,,,,Non,,5,4,Huile végétale,0,Non,Non,oui,5,Non,7h,oui,asthmatique
-femme,ولاية البليدة,18,universitaire,étudiant,Non,,,,,Non,,2,5,Huile végétale,0,Non,Non,Non,1,Non,8 heures et plus,oui,diabete
-homme,ولاية الجزائر,19,universitaire,étudiant,oui,Non,16,curiosité,Non,Non,,5,3,Huile végétale,2,Non,oui,oui,5,Non,8h,oui,la tension(HTA)
-homme,ولاية باتنة,19,universitaire,étudiant,Non,,,,,oui,1 fois par mois,1,4,Huile végétale,0,Non,oui,oui,5,Non,,oui,Maladies cardiaques
-homme,ولاية تيزي وزو,20,universitaire,étudiant,Non,Non,,,Je ne fume pas,Non,,1,5,Huile végétale,2,Non,oui,oui,5,Non,8h,oui,la tension(HTA)
-homme,ولاية قسنطينة,19,universitaire,étudiant,Non,,,,,Non,,5,2,Margarine,0,Non,Non,oui,5,Non,10h,oui,diabete
-homme,ولاية سيدي بلعباس,21,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,5,Non,14,Non,
-homme,ولاية معسكر,19,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,5,oui,Non,oui,2,oui,6 heures,Non,
-homme,ولاية أم البواقي,20,universitaire,étudiant,Non,Non,,,,Non,,3,4,Margarine,0,Non,Non,Non,2,Non,,Non,
-femme,ولاية الجزائر,18,universitaire,étudiant,Non,,,,,Non,,3,2,Huile végétale,0,Non,Non,Non,0,Non,plus de 12h,oui,diabete
-femme,ولاية الجزائر,21,universitaire,étudiant,Non,,,,,Non,,2,4,Huile végétale,0,Non,oui,oui,1,Non,5h,oui,la tension(HTA)
-homme,ولاية سطيف,21,universitaire,étudiant,Non,Non,,,,Non,,2,4,Huile végétale,1,Non,Non,oui,5,Non,7 à 10 Heures ,oui,la tension(HTA)
-homme,ولاية الشلف,20,universitaire,étudiant,oui,oui,19,autre,Non,oui,1 fois par mois,2,3,Huile végétale,4,oui,Non,oui,4,oui,La plupart de mon temps,Non,
-homme,ولاية معسكر,24,universitaire,étudiant,Non,Non,,,,Non,,4,4,Huile végétale,3,Non,Non,oui,1,oui,8h,Non,
-femme,ولاية الجزائر,20,universitaire,étudiant,Non,Non,,,,Non,,3,5,Margarine,2,Non,Non,oui,0,oui,,oui,diabete
-homme,ولاية سكيكدة,23,universitaire,étudiant,Non,,,,,Non,,2,5,Huile végétale,4,oui,oui,Non,4,oui,1,oui,la tension(HTA)
-homme,ولاية الجزائر,19,universitaire,étudiant,Non,,,,,Non,,3,2,Huile végétale,0,Non,Non,oui,2,Non,8h-12h,oui,la tension(HTA)
+femme,Alger,21,universitaire,étudiant,Non,Non,,,,Non,,0,5,Huile végétale,1,Non,Non,Non,0,Non,"la plupart du temps ( studies, working on computer)",oui,Asthme
+femme,Alger,18,universitaire,étudiant,Non,,,,,Non,,2,5,Margarine,1,Oui,oui,oui,5,Non,16h,oui,
+femme,Oran,18,universitaire,étudiant,Non,Non,,,,Non,,5,2,Huile végétale,5,Non,oui,oui,1,oui,14h,oui,Diabète
+femme,Alger,20,universitaire,étudiant,Non,Non,,,,Non,,3,5,Huile végétale,0,Non,oui,oui,5,oui,6 h,oui,Diabète
+femme,Alger,18,universitaire,étudiant,Non,,,,,Non,,4,2,Huile végétale,1,Non,oui,Non,2,oui,8h,oui,Asthme
+femme,Alger,35,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,4,4,Huile végétale,0,Non,Non,Non,0,Non,8,oui,Diabète
+homme,Constantine,19,universitaire,étudiant,Non,,,,,Non,,5,2,Margarine,0,Non,Non,oui,5,Non,10h,oui,Diabète
+homme,Tizi Ouzou,20,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,5,oui,Non,oui,5,oui,5 ou 6 heures ou peut-être plus,oui,Diabète
+femme,Alger,19,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,0,Non,Non,Non,0,oui,24h,Non,
+homme,Alger,19,universitaire,étudiant,Non,,,,,Non,,5,4,Huile végétale,3,oui,Non,oui,1,oui,8-12h,Non,
+homme,Alger,21,universitaire,étudiant,Non,Non,,,,Non,,2,5,Huile végétale,2,Non,Non,oui,4,oui,10 heures,Non,
+homme,Blida,18,universitaire,étudiant,Non,Non,,,,Non,,5,4,Huile végétale,0,Non,Non,oui,5,Non,7h,oui,Asthme
+femme,Blida,18,universitaire,étudiant,Non,,,,,Non,,2,5,Huile végétale,0,Non,Non,Non,1,Non,8 heures et plus,oui,Diabète
+homme,Alger,19,universitaire,étudiant,oui,Non,16.0,curiosité,Non,Non,,5,3,Huile végétale,2,Non,oui,oui,5,Non,8h,oui,
+homme,Batna,19,universitaire,étudiant,Non,,,,,oui,1 fois par mois,1,4,Huile végétale,0,Non,oui,oui,5,Non,,oui,Maladie caridiaque
+homme,Tizi Ouzou,20,universitaire,étudiant,Non,Non,,,Je ne fume pas,Non,,1,5,Huile végétale,2,Non,oui,oui,5,Non,8h,oui,
+homme,Constantine,19,universitaire,étudiant,Non,,,,,Non,,5,2,Margarine,0,Non,Non,oui,5,Non,10h,oui,Diabète
+homme,Sidi Bel Abbès,21,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,5,Non,14,Non,
+homme,Mascara,19,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,5,oui,Non,oui,2,oui,6 heures,Non,
+homme,Oum El Bouaghi,20,universitaire,étudiant,Non,Non,,,,Non,,3,4,Margarine,0,Non,Non,Non,2,Non,,Non,
+femme,Alger,18,universitaire,étudiant,Non,,,,,Non,,3,2,Huile végétale,0,Non,Non,Non,0,Non,plus de 12h,oui,Diabète
+femme,Alger,21,universitaire,étudiant,Non,,,,,Non,,2,4,Huile végétale,0,Non,oui,oui,1,Non,5h,oui,
+homme,Setif,21,universitaire,étudiant,Non,Non,,,,Non,,2,4,Huile végétale,1,Non,Non,oui,5,Non,7 à 10 Heures ,oui,
+homme,Chlef,20,universitaire,étudiant,oui,oui,19.0,autre,Non,oui,1 fois par mois,2,3,Huile végétale,4,oui,Non,oui,4,oui,La plupart de mon temps,Non,
+homme,Mascara,24,universitaire,étudiant,Non,Non,,,,Non,,4,4,Huile végétale,3,Non,Non,oui,1,oui,8h,Non,
+femme,Alger,20,universitaire,étudiant,Non,Non,,,,Non,,3,5,Margarine,2,Non,Non,oui,0,oui,,oui,Diabète
+homme,Skikda,23,universitaire,étudiant,Non,,,,,Non,,2,5,Huile végétale,4,oui,oui,Non,4,oui,1,oui,
+homme,Alger,19,universitaire,étudiant,Non,,,,,Non,,3,2,Huile végétale,0,Non,Non,oui,2,Non,8h-12h,oui,
