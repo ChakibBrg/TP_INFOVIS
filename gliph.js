@@ -1,62 +1,121 @@
 // Données fictives pour simuler la base de données
-const data = [
-    { sexe: "Homme", wilaya: "Alger", age: 35, niveauEtude: "Master", activite: "Employé", fumeur: "Oui", fumeurQuotidien: "Oui", debutFume: 18, raisonFume: "Pression sociale", alcool: "Oui", freqAlcool: "2-3 fois par semaine", freqFruits: 4, freqLegumes: 5, matiereGrasse: "Huile d'olive", freqActivitePhysique: 3, salleSport: "Non", activiteTravail: "Oui", trajet10min: "Oui", trajet30min: 2, pratiqueSport: "Oui", tempsAssis: "6-8 heures", autresMaladies: "Oui", typeMaladies: "Diabète, Hypertension" },
-    { sexe: "Femme", wilaya: "Alger", age: 35, niveauEtude: "Master", activite: "Employé", fumeur: "Oui", fumeurQuotidien: "Oui", debutFume: 18, raisonFume: "Pression sociale", alcool: "Oui", freqAlcool: "2-3 fois par semaine", freqFruits: 4, freqLegumes: 5, matiereGrasse: "Huile d'olive", freqActivitePhysique: 3, salleSport: "Non", activiteTravail: "Oui", trajet10min: "Oui", trajet30min: 2, pratiqueSport: "Oui", tempsAssis: "6-8 heures", autresMaladies: "Oui", typeMaladies: "Diabète, Hypertension" },
+// const data = [
+//     { sexe: "Homme", wilaya: "Alger", age: 35, niveauEtude: "Master", activite: "Employé", fumeur: "Oui", fumeurQuotidien: "Oui", debutFume: 18, raisonFume: "Pression sociale", alcool: "Oui", freqAlcool: "2-3 fois par semaine", freqFruits: 4, freqLegumes: 5, matiereGrasse: "Huile d'olive", freqActivitePhysique: 3, salleSport: "Non", activiteTravail: "Oui", trajet10min: "Oui", trajet30min: 2, pratiqueSport: "Oui", tempsAssis: "6-8 heures", autresMaladies: "Oui", typeMaladies: "Diabète, Hypertension" },
+//     { sexe: "Femme", wilaya: "Alger", age: 35, niveauEtude: "Master", activite: "Employé", fumeur: "Oui", fumeurQuotidien: "Oui", debutFume: 18, raisonFume: "Pression sociale", alcool: "Oui", freqAlcool: "2-3 fois par semaine", freqFruits: 4, freqLegumes: 5, matiereGrasse: "Huile d'olive", freqActivitePhysique: 3, salleSport: "Non", activiteTravail: "Oui", trajet10min: "Oui", trajet30min: 2, pratiqueSport: "Oui", tempsAssis: "6-8 heures", autresMaladies: "Oui", typeMaladies: "Diabète, Hypertension" },
 
-    // Ajoutez d'autres données fictives ici
-];
+//     // Ajoutez d'autres données fictives ici
+// ];
+
+import raw from './ressources/data.json' assert { type: 'json' };
+
+const data = raw['data'];
+
+console.log(data);
 
 // Variables à utiliser pour la visualisation
-const variables = ["sexe", "wilaya", "age", "niveauEtude"];
+const variables = ['sexe', 'wilaya', 'age', 'niveau_etude'];
 
 // Création de la visualisation avec un diagramme à barres
-const svg = d3.select("#visualization");
+const svg = d3.select('#visualization');
 
 // Fonction pour préparer les données à visualiser
 const prepareData = () => {
-    const preparedData = {};
+	const preparedData = {};
 
-    variables.forEach(variable => {
-        preparedData[variable] = d3.rollup(data, v => v.length, d => d[variable]);
-    });
+	variables.forEach((variable) => {
+		preparedData[variable] = d3.rollup(
+			data,
+			(v) => v.length,
+			(d) => d[variable]
+		);
+	});
 
-    return preparedData;
+	return preparedData;
 };
 
 // Création du diagramme à barres
 const renderBarChart = () => {
-    const preparedData = prepareData();
+	const axeHeight = 550;
+	const barsWidth = 450;
 
-    // Définir les échelles pour les axes X et Y
-    const xScale = d3.scaleBand()
-        .domain([...preparedData[variables[0]].keys()])
-        .range([50, 750])
-        .padding(0.1);
+	const preparedData = prepareData();
+	const chosenVar = preparedData[variables[3]];
 
-    const yScale = d3.scaleLinear()
-        .domain([0, d3.max([...preparedData[variables[0]].values()])])
-        .range([550, 50]);
+	// Définir les échelles pour les axes X et Y
+	const xScale = d3
+		.scaleBand()
+		.domain([...chosenVar.keys()])
+		.range([50, barsWidth])
+		.padding(0.5);
 
-    // Ajouter les barres au diagramme
-    svg.selectAll("rect")
-        .data([...preparedData[variables[0]].entries()])
-        .enter()
-        .append("rect")
-        .attr("x", d => xScale(d[0]))
-        .attr("y", d => yScale(d[1]))
-        .attr("width", xScale.bandwidth())
-        .attr("height", d => 550 - yScale(d[1]))
-        .attr("fill", "steelblue");
+	const yScale = d3
+		.scaleLinear()
+		.domain([0, d3.max([...chosenVar.values()])])
+		.range([axeHeight, 50]);
 
-    // Ajouter l'axe X
-    svg.append("g")
-        .attr("transform", "translate(0,550)")
-        .call(d3.axisBottom(xScale));
+	// Ajouter les barres au diagramme
+	svg
+		.selectAll('rect')
+		.data([...chosenVar.entries()])
+		.enter()
+		.append('rect')
+		.attr('x', (d) => xScale(d[0]))
+		.attr('y', (d) => yScale(d[1]))
+		.attr('width', xScale.bandwidth())
+		.attr('height', (d) => axeHeight - yScale(d[1]))
+		.attr('fill', 'steelblue')
+		.on('mouseover', handleMouseOver)
+		.on('mouseout', handleMouseOut)
+		.on('mousemove', handleMouseMove);
 
-    // Ajouter l'axe Y
-    svg.append("g")
-        .attr("transform", "translate(50,0)")
-        .call(d3.axisLeft(yScale));
+	// Ajouter les labels des barres
+	svg
+		.selectAll('text')
+		.data([...chosenVar.entries()])
+		.enter()
+		.append('text')
+		.attr('x', (d) => xScale(d[0]) + xScale.bandwidth() / 2)
+		.attr('y', (d) => yScale(d[1]) - 5)
+		.attr('text-anchor', 'middle')
+		.text((d) => d[1])
+		.attr('font-family', 'sans-serif')
+		.attr('font-size', '12px')
+		.attr('fill', 'black');
+
+	// Tooltip for hover interactions
+	const tooltip = d3.select('body').append('div').attr('class', 'tooltip');
+
+	function handleMouseOver(event, d) {
+		d3.select(this).attr('fill', 'orange');
+
+		tooltip
+			.style('display', 'block')
+			.html(`<p>${d[0]}: ${d[1]}</p>`)
+			.style('left', `${event.pageX}px`)
+			.style('top', `${event.pageY}px`);
+	}
+
+	function handleMouseOut() {
+		d3.select(this).attr('fill', 'steelblue');
+
+		tooltip.style('display', 'none');
+	}
+
+	function handleMouseMove(event) {
+		tooltip.style('left', `${event.pageX + 10}px`).style('top', `${event.pageY + 10}px`);
+	}
+
+	// Ajouter l'axe X
+	svg
+		.append('g')
+		.attr('transform', `translate(0,${axeHeight})`)
+		.call(d3.axisBottom(xScale));
+
+	// Ajouter l'axe Y
+	svg
+		.append('g')
+		.attr('transform', 'translate(50,0)')
+		.call(d3.axisLeft(yScale));
 };
 
 // Appel de la fonction pour créer le diagramme à barres
