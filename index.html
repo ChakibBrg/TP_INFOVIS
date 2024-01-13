@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TP_maladies_chroniques</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-
-    beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./ressources/d3.v3.min.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TP_maladies_chroniques</title>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script> -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<!-- <script src="./lib/tailwindcss.3.3.5.js"></script> -->
+		<script src="./lib/d3.v7.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="./gliph.js" type="module" defer></script>
+		<script src="./lib/topojson-client.min.js"></script>
 
-    <script src="./gliph.js" defer type="module"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <svg id="visualization" width="800" height="600"></svg>
+		<link rel="stylesheet" href="style.css" type="text/tailwindcss" />
+		<style type="text/tailwindcss">
+			.tooltip {
+				@apply absolute bg-white p-2 border-2 border-gray-500 rounded-lg hidden;
+			}
+			.body {
+				@apply flex flex-col justify-center items-center gap-4 p-4;
+			}
+			.button {
+				@apply text-center rounded-lg border-black bg-gray-500 p-2 text-white
+			}
+			.buttons {
+				@apply flex justify-center items-center gap-4
+			}
+			.container {
+				@apply border-black border-4 p-2
+			}
+			.title {
+				@apply text-3xl text-gray-700 text-center underline font-bold
+			}
+			path.slice{
+				stroke-width:2px;
+			}
+			polyline{
+				opacity: .3;
+				stroke: black;
+				stroke-width: 2px;
+				fill: none;
+			}
 
-</body>
+			.tooltip h3 {
+				@apply text-lg font-bold text-center;
+			}
+		</style>
+	</head>
+	<body class="body">
+		<div class="container body">
+			<h1 class="title">Bar Chart</h1>
+			<div id="bar-chart"></div>
+
+		</div>
+		<div class="container body ">
+			<h1 class="title">Pie Chart</h1>
+			<br>
+			<div class="buttons">
+				<button class="button" id="button1">Maladies</button>
+				<button class="button" id="button2">Fumeurs</button>
+				<button class="button" id="button3">Alcool</button>
+			</div>
+			
+			<div id="pichart"></div>
+		</div>
+
+		<div class="container body ">
+			<h1 class="title">Map Chart</h1>
+			<div id="map-chart"></div>
+		</div>
+	</body>
 </html>
