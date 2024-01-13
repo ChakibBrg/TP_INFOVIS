@@ -7,6 +7,7 @@
 		<!-- <script src="https://cdn.tailwindcss.com"></script> -->
 		<script src="./lib/tailwindcss.3.3.5.js"></script>
 		<script src="./lib/d3.v7.min.js"></script>
+		<script src="./lib/topojson-client.min.js"></script>
 
 		<script src="./gliph.js" type="module" defer></script>
 		<link rel="stylesheet" href="style.css" type="text/tailwindcss" />
@@ -14,9 +15,14 @@
 			.tooltip {
 				@apply absolute bg-white p-2 border-2 border-gray-500 rounded-lg hidden;
 			}
+
+			.tooltip h3 {
+				@apply text-lg font-bold text-center;
+			}
 		</style>
 	</head>
 	<body>
         <div id="bar-chart"></div>
+		<div id="map-chart"></div>
 	</body>
 </html>
