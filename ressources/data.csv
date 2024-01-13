@@ -43,7 +43,7 @@ femme,Alger,27,universitaire,Employé(e) dans le privé,Non,,,,,Non,,4,5,Huile v
 femme,Constantine,29,universitaire,Employé(e) de l’Etat,Non,Non,,,,Non,,4,3,Huile végétale,1,Non,oui,oui,2,Non,oui,Diabète
 femme,Alger,20,universitaire,étudiant,Non,,,,,Non,,4,5,Huile végétale,0,Non,oui,oui,5,oui,oui,
 homme,Jijel,18,universitaire,étudiant,Non,Non,,autre,oui,Non,1 fois par mois,1,4,Beurre ou beurre allégé,3,Non,oui,oui,3,Non,Non,Diabète
-femme,Oum El Bouaghi,21,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,1,Non,Non,Non,1,Non,oui,Diabète
+femme,Oum el Bouaghi,21,universitaire,étudiant,Non,,,,,Non,,3,3,Huile végétale,1,Non,Non,Non,1,Non,oui,Diabète
 femme,Jijel,18,universitaire,étudiant,Non,,,,,Non,,4,2,Huile végétale,0,"D’habitude je fais un abonnement à la salle de sport chaque été Mais vu led circonstances sanitaires, j’ai arrêté ",Non,Non,2,oui,Non,
 homme,Alger,19,universitaire,étudiant,Non,Non,,curiosité,Non,Non,1 fois par mois,4,5,autre,0,Non,Non,oui,1,Non,oui,
 femme,Alger,22,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,3,oui,Non,
@@ -95,10 +95,10 @@ homme,Tizi Ouzou,20,universitaire,étudiant,Non,Non,,,Je ne fume pas,Non,,1,5,Hu
 homme,Constantine,19,universitaire,étudiant,Non,,,,,Non,,5,2,Margarine,0,Non,Non,oui,5,Non,oui,Diabète
 homme,Sidi Bel Abbès,21,universitaire,étudiant,Non,,,,,Non,,3,5,Huile végétale,1,Non,Non,oui,5,Non,Non,
 homme,Mascara,19,universitaire,étudiant,Non,,,,,Non,,5,5,Huile végétale,5,oui,Non,oui,2,oui,Non,
-homme,Oum El Bouaghi,20,universitaire,étudiant,Non,Non,,,,Non,,3,4,Margarine,0,Non,Non,Non,2,Non,Non,
+homme,Oum el Bouaghi,20,universitaire,étudiant,Non,Non,,,,Non,,3,4,Margarine,0,Non,Non,Non,2,Non,Non,
 femme,Alger,18,universitaire,étudiant,Non,,,,,Non,,3,2,Huile végétale,0,Non,Non,Non,0,Non,oui,Diabète
 femme,Alger,21,universitaire,étudiant,Non,,,,,Non,,2,4,Huile végétale,0,Non,oui,oui,1,Non,oui,
-homme,Setif,21,universitaire,étudiant,Non,Non,,,,Non,,2,4,Huile végétale,1,Non,Non,oui,5,Non,oui,
+homme,Sétif,21,universitaire,étudiant,Non,Non,,,,Non,,2,4,Huile végétale,1,Non,Non,oui,5,Non,oui,
 homme,Chlef,20,universitaire,étudiant,oui,oui,19.0,autre,Non,oui,1 fois par mois,2,3,Huile végétale,4,oui,Non,oui,4,oui,Non,
 homme,Mascara,24,universitaire,étudiant,Non,Non,,,,Non,,4,4,Huile végétale,3,Non,Non,oui,1,oui,Non,
 femme,Alger,20,universitaire,étudiant,Non,Non,,,,Non,,3,5,Margarine,2,Non,Non,oui,0,oui,oui,Diabète

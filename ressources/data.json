@@ -1102,7 +1102,7 @@
 		},
 		{
 			"sexe": "femme",
-			"wilaya": "Oum El Bouaghi",
+			"wilaya": "Oum el Bouaghi",
 			"age": 21,
 			"niveau_etude": "universitaire",
 			"activite_professionnelle": "\u00e9tudiant",
@@ -2402,7 +2402,7 @@
 		},
 		{
 			"sexe": "homme",
-			"wilaya": "Oum El Bouaghi",
+			"wilaya": "Oum el Bouaghi",
 			"age": 20,
 			"niveau_etude": "universitaire",
 			"activite_professionnelle": "\u00e9tudiant",
@@ -2477,7 +2477,7 @@
 		},
 		{
 			"sexe": "homme",
-			"wilaya": "Setif",
+			"wilaya": "S\u00e9tif",
 			"age": 21,
 			"niveau_etude": "universitaire",
 			"activite_professionnelle": "\u00e9tudiant",
