@@ -8,6 +8,7 @@ This project aims to explore and analyze data on chronic diseases in Algeria thr
 - Identification of correlations between different variables to better understand risk factors.
 
 ## Technologies Used
+- Python: For data preprocessing.
 - D3.js: A JavaScript library for creating dynamic and interactive visualizations in the browser.
 - HTML/CSS: Used for the structure and style of the web page.
 - JavaScript: Programming language for interactivity and data manipulation.
